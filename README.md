@@ -1,4 +1,4 @@
-# Fonoster {Service Name}
+# Voice Application Template
 
 > {A short description of the image, same as the Github Repo description.}
 
@@ -6,13 +6,13 @@
 
 [![publish to docker hub](https://github.com/fonoster/nodejs-service/actions/workflows/gh_docker.yml/badge.svg)](https://github.com/fonoster/nodejs-service/actions/workflows/gh_docker.yml)
 
-{Longer description of what the image provides.}
+{ Longer description of what the application does. }
 
 Please read the [documentation](link) on how Fonoster services are created and how to work with them.
 
 ## Available Versions
 
-{Keep this as-is, but replace {name} with your Docker image name.}
+{ Keep this as-is, but replace {name} with your Docker image name. }
 
 You can see all images available to pull from Docker Hub via the [Tags]() page. Docker tag names that begin with a "change type" word such as task, bug, or feature are available for testing and may be removed at any time.
 
@@ -21,19 +21,19 @@ You can see all images available to pull from Docker Hub via the [Tags]() page. 
 You can clone this repository and manually build it.
 
 ```
-cd fonoster/{service}\:%%VERSION%%
-docker build -t fonoster/{service}:%%VERSION%% .
+cd {appname}\:%%VERSION%%
+docker build -t fonoster/{appname}:%%VERSION%% .
 ```
 
 Otherwise, you can pull this image from the docker index.
 
 ```
-docker pull fonoster/{service}:%%VERSION%%
+docker pull fonoster/{appname}:%%VERSION%%
 ```
 
 ## Usage Example
 
-{An example of running the container. Most Fonoster services use docker-compose, and docker run is also beneficial.}
+{ An example of running the voiceapp }
 
 The following is a basic example of using this image.
 
@@ -47,12 +47,6 @@ or with Node:
 npm i
 npm start
 ```
-
-## Specs
-
-Optional specification notes.
-
-{List of packages and tools, H3 section breakouts for more detail}
 
 ## Environment Variables
 
