@@ -14,8 +14,8 @@ RUN npm install && npm run build && npm pack
 ##
 FROM node:lts-alpine as runner
 
-COPY --from=builder /build/nodejs-service-*.tgz ./
-RUN npm install -g nodejs-service-*.tgz
+COPY --from=builder /build/nodejs-voiceapp-*.tgz ./
+RUN npm install -g nodejs-voiceapp-*.tgz
 
 ENTRYPOINT ["sh", "-c"]
-CMD [ "nodejsservice" ]
+CMD [ "nodejsvoiceapp" ]

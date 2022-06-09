@@ -12,7 +12,7 @@ jobs:
       - name: Publish
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          name: fonoster/nodejs-service
+          name: fonoster/nodejs-voiceapp
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
           workdir: .

@@ -1,8 +1,9 @@
+#!/usr/bin/env node
 /*
  * Copyright (C) 2022 by Fonoster Inc (https://fonoster.com)
  * http://github.com/fonoster
  *
- * This file is part of nodejs-service
+ * This file is part of nodejs-voiceapp
  *
  * Licensed under the MIT License (the "License");
  * you may not use this file except in compliance with
@@ -16,23 +17,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import express, {Express, Request, Response} from "express";
+import {VoiceRequest, VoiceServer, VoiceResponse} from "@fonoster/voice";
 import logger from "@fonoster/logger";
 
-/**
- * This is the entry point for the service. It will be called by
- * the service runner.
- *
- * @param {number} port - The port the service will listen on.
- */
-export default function start(port: number | string = 3000): void {
-  const app: Express = express();
+const serverConfig = {
+  pathToFiles: `${process.cwd()}/sounds`
+};
 
-  app.get("/", (req: Request, res: Response) => {
-    res.send("Express + TypeScript Server");
-  });
-
-  app.listen(port, () => {
-    logger.info(`⚡️[server]: Server is running at https://localhost:${port}`);
-  });
-}
+new VoiceServer(serverConfig).listen(
+  async (req: VoiceRequest, res: VoiceResponse) => {
+    logger.verbose(req);
+    await res.answer();
+    await res.play(`sound:${req.selfEndpoint}/sounds/hello-world.sln16`);
+    await res.hangup();
+  }
+);

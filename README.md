@@ -4,7 +4,7 @@
 
 {Badges should all be in one row without carriage returns. Replace the {name} with your docker image name.}
 
-[![publish to docker hub](https://github.com/fonoster/nodejs-service/actions/workflows/gh_docker.yml/badge.svg)](https://github.com/fonoster/nodejs-service/actions/workflows/gh_docker.yml)
+[![publish to docker hub](https://github.com/fonoster/nodejs-voiceapp/actions/workflows/gh_docker.yml/badge.svg)](https://github.com/fonoster/nodejs-voiceapp/actions/workflows/gh_docker.yml)
 
 { Longer description of what the application does. }
 

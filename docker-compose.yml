@@ -1,10 +1,10 @@
 version: '3.7'
 
 services:
-  nodejsservice:
+  nodejsvoiceapp:
     build:
       context: .  
-    image: fonoster/nodejsservice:latest
+    image: fonoster/nodejsvoiceapp:latest
     restart: always
     ports:
       - 3000:3000

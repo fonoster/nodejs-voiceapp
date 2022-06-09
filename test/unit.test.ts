@@ -2,7 +2,7 @@
  * Copyright (C) 2022 by Fonoster Inc (https://fonoster.com)
  * http://github.com/fonoster
  *
- * This file is part of nodejs-service
+ * This file is part of nodejs-voiceapp
  *
  * Licensed under the MIT License (the "License");
  * you may not use this file except in compliance with
@@ -22,7 +22,7 @@ import sinonChai from "sinon-chai";
 const expect = chai.expect;
 chai.use(sinonChai);
 const sandbox = sinon.createSandbox();
-describe("@routr/echo", () => {
+describe("nodejs-voiceapp", () => {
   afterEach(() => sandbox.restore());
 
   it.skip("needs testing", () => {});
