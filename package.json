@@ -48,8 +48,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@fonoster/logger": "^0.3.6",
-    "@fonoster/voice": "^0.3.6"
+    "@fonoster/logger": "^0.3.7",
+    "@fonoster/voice": "^0.3.8"
   },
   "devDependencies": {
     "@types/chai": "^4.3.1",
