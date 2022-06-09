@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  nodejsservice:
+    build:
+      context: .  
+    image: fonoster/nodejsservice:latest
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+      LOGS_LEVEL: verbose
+      # Uncomment the following line to enable fluent transport
+      # LOGS_TRANSPORT: fluent
