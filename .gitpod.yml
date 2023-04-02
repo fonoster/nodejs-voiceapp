@@ -15,6 +15,7 @@ tasks:
 
 ports:
   - port: 3000
+    visibility: public
     onOpen: notify
 
 github:
