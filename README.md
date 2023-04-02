@@ -48,6 +48,12 @@ npm i
 npm start
 ```
 
+## Deploying in development mode with Gitpod
+
+One-click interactive deployment will familiarize you with the server in development mode.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/fonoster/nodejs-voiceapp)
+
 ## Environment Variables
 
 Environment variables are used in the entry point script to render configuration templates. You can specify the values of these variables during `docker run`, `docker-compose up`, or in Kubernetes manifests in the `env` array.
