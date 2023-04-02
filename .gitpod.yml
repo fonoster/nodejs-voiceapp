@@ -11,7 +11,7 @@
 tasks:
   - name: Setup & start
     init: npm install
-    command: npm start
+    command: LOGS_LEVEL=verbose npm start
 
 ports:
   - port: 3000
