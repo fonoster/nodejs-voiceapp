@@ -1,4 +1,4 @@
-version: '3.7'
+version: "3.9"
 
 services:
   nodejsvoiceapp:
@@ -12,3 +12,4 @@ services:
       LOGS_LEVEL: verbose
       # Uncomment the following line to enable fluent transport
       # LOGS_TRANSPORT: fluent
+
