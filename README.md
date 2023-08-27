@@ -4,7 +4,7 @@
 
 {Badges should all be in one row without carriage returns. Replace the {name} with your docker image name.}
 
-<a href="https://gitpod.io/#https://github.com/fonoster/nodejs-voiceapp"> <img src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod" alt="Contribute with Gitpod" /> [![publish to docker hub](https://github.com/fonoster/nodejs-voiceapp/actions/workflows/gh_docker.yml/badge.svg)](https://github.com/fonoster/nodejs-voiceapp/actions/workflows/gh_docker.yml)
+<a href="https://gitpod.io/#https://github.com/fonoster/nodejs-voiceapp"> <img src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod" alt="Contribute with Gitpod" /> </a>[![publish to docker hub](https://github.com/fonoster/nodejs-voiceapp/actions/workflows/gh_docker.yml/badge.svg)](https://github.com/fonoster/nodejs-voiceapp/actions/workflows/gh_docker.yml)
 
 { Longer description of what the application does. }
 
