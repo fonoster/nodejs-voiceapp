@@ -48,8 +48,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@fonoster/logger": "^0.3.20",
-    "@fonoster/voice": "^0.3.20"
+    "@fonoster/logger": "^0.3.24",
+    "@fonoster/voice": "^0.3.24"
   },
   "devDependencies": {
     "@types/chai": "^4.3.1",
@@ -71,7 +71,7 @@
     "husky": "^8.0.1",
     "jsdoc-to-markdown": "^7.0.1",
     "mocha": "^10.0.0",
-    "nodemon": "^2.0.16",
+    "nodemon": "^3.0.1",
     "nyc": "^15.1.0",
     "prettier": "^2.6.2",
     "sinon": "^9.0.2",
