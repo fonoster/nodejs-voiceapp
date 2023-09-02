@@ -20,7 +20,7 @@
     "prepare": "husky install"
   },
   "bin": {
-    "nodejsvoiceapp": "./dist/src/index.js"
+    "runner": "./dist/src/index.js"
   },
   "nodemonConfig": {
     "watch": [
