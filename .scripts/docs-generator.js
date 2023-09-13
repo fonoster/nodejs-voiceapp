@@ -23,7 +23,6 @@ console.log(templateData);
 
 /* create a documentation file for each class */
 for (const className of classNames) {
-  console.log("XXXXXX")
   // Workaround an issue with the inputFile picking up wrong classes
   if (["Scanner", "Walker", "Parser", "Filter"].includes(className)) continue;
   const template = `{{#class name="${className}"}}{{>docs}}{{/class}}`;
