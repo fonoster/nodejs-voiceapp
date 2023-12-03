@@ -48,8 +48,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@fonoster/logger": "^0.3.24",
-    "@fonoster/voice": "^0.3.24"
+    "@fonoster/logger": "^0.3.31",
+    "@fonoster/voice": "^0.3.31"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
